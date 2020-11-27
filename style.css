@@ -185,7 +185,7 @@ li.menu-item.menu-item-type-post_type.menu-item-object-page {}
     padding: 0px 50px!important;
 }
 
-div[class^="scrollRegion_"], div[data-automation-id="contentScrollRegion"] {
+div[class^="scrollRegion_"], div[data-automation-id="contentScrollRegion"], div[data-automation-id="mainScrollRegionInnerContent"] {
  overflow-y: visible!important;
  overflow-x: visible!important;
 }
