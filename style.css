@@ -336,7 +336,7 @@ div[class^="headerRow"]{
    text-align: center;
       color: rgb(121,121,121)!important;
       box-sizing:border-box;
-        padding: 15px 14px;
+        padding: 15px 14px!important;
          opacity: 0.93;
   filter: alpha(opacity=93);
   z-index:99;
@@ -356,6 +356,9 @@ line-height: 25px;
     .nav-link:hover{
       background-color:rgb(121,121,121);
       color:white!important;
+    }
+    .sidebar-link.nav-link{
+        height:70px;
     }
     .submenu .nav-link{
       height: 70px;
