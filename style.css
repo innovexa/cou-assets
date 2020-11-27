@@ -1,6 +1,6 @@
 :root {
     --main-color:rgb(121,121,121);
-  }
+}
 .menu-item a {
     color: rgb(121,121,121)!important;
 }
@@ -185,7 +185,7 @@ li.menu-item.menu-item-type-post_type.menu-item-object-page {}
     padding: 0px 50px!important;
 }
 
-div[class^="scrollRegion_"] {
+div[class^="scrollRegion_"], div[data-automation-id="contentScrollRegion"] {
  overflow-y: visible!important;
  overflow-x: visible!important;
 }
