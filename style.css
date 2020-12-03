@@ -4,6 +4,9 @@
 .menu-item a {
     color: rgb(121,121,121)!important;
 }
+.ms-HubNav-enhancedMegaMenu{
+    display:none;
+}
 .tab-header {
     display:none;
 }
