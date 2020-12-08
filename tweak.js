@@ -44,6 +44,7 @@ function initPage ()  {
 
   })(window.history);
 $(document).ready(()=>{
-    initPage();
+    setTimeout(
+    () => {initPage()}, 250);
 });
 
